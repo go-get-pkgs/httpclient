@@ -1,0 +1,122 @@
+{
+  "tls": {
+    "record_version": 769,
+    "handshake_version": 771,
+    "cipher_suites": [
+      19018,
+      4865,
+      4866,
+      4867,
+      49195,
+      49199,
+      49196,
+      49200,
+      52393,
+      52392,
+      49171,
+      49172,
+      156,
+      157,
+      47,
+      53
+    ],
+    "compression_methods": "AA==",
+    "extensions": [
+      56026,
+      13,
+      16,
+      5,
+      65281,
+      23,
+      51,
+      18,
+      43,
+      10,
+      11,
+      4832,
+      35,
+      17613,
+      65037,
+      51764,
+      27,
+      45,
+      47802
+    ],
+    "supported_curves": [
+      14906,
+      4588,
+      29,
+      23,
+      24
+    ],
+    "supported_points": "AA==",
+    "alpn_protocols": [
+      "h2",
+      "http/1.1"
+    ],
+    "key_share_groups": [
+      14906,
+      4588,
+      29
+    ],
+    "signature_algorithms": [
+      47802,
+      2308,
+      2309,
+      2310,
+      1027,
+      2052,
+      1025,
+      1283,
+      2053,
+      1281,
+      2054,
+      1537
+    ],
+    "raw_extensions": {
+      "10": "AAo6OhHsAB0AFwAY",
+      "11": "AQA=",
+      "13": "ABi6ugkECQUJBgQDCAQEAQUDCAUFAQgGBgE=",
+      "16": "AAwCaDIIaHR0cC8xLjE=",
+      "17613": "AAMCaDI=",
+      "18": null,
+      "23": null,
+      "27": "AgAC",
+      "35": null,
+      "43": "BkpKAwQDAw==",
+      "45": "AQE=",
+      "47802": "AA==",
+      "4832": "AAA=",
+      "5": "AQAAAAA=",
+      "51": "BO06OgABABHsBMCHHFJJyh24m7jGkAnXcchxq0C/eMIiU0/3yzIWhntBsChwx8hIOQpkic6cuW309qoQM2NsnG3EiHqKm0javKC8YIbzoF4Qmal4JWMqTBEQ8ZMRRrg4szT3KWm9wESMxj8VWVJCl5WdFKzvGJVSKajlwqwFeEWtMRZgBMY2JXrJjGZgmXVPKB+EcF4KSsjEccDr7KVy41JrZGYh6DTBhHlCcWO0qZMl5IwKe2xLd5zFGGi59G4AGMqcAR9MyHRqDGSWOc69Y4SZS3a3obn7PKg7W2iGEp4I+Luk3HjSZzjbmzOGa8/lEhw1MCg9DExt2EyNuQ7qNXcGyYOExqO5UBxm3IL6uqt+4StodAOH/DZp+Qse6Rpz91K55kSU1UvpYpMqIIZnUE1NQ8NRNH2NqKe7CWl8G7/n4iQt/HyMbJ9n6YHcI3AFV8hwVXV/qI0Gg1As58Y/hEMI2jAo8gEB00Jz8Q9lSTgOsRqJkADeJkzFtARIkiAjOUWUkZMoqBVwOmPQuM5l10BFGpo+/A4NQKOIkD279Gwrq4fNqThKqzxLesqEyTMNZ8hm1gA9546bOQ95Wzz+jGo5+gJD0UdGxsGAgK/x6yX+tZFSmHHs8zw3+0WT02JqOCczYhDjRK35wgY0vDD5Kmo65Q+4qFk8hQWWfKRLWx32agk0p3OKSXgR9wVLAlZwmwR72mWPwH/fFbIZozSRuHUA1W8B54Y5uc61M4cxFnSq1jyMkj0LpLRNdHJH683T+YNB22HfF6C+0DYZFpABGQU6WXOmVptFaDwmVUtm0mj2PD6aocpwurXF04+PhTwmM4k3FZX3gWVMMzVX0j3z9MT0Yi9NUxBcahmKqAR9mIjrtQhRwU+rG7llQgQKhLJnsTIsOwTz8ssbd32YrBVF9xFGmV9f44a8JDdx8xdSh7vMW3ObdahIZ0nZ3LJttGhoNFaS2wEHNx1/9Mbft0H/Eobk8XkSkzrbeDzlN2tTJptqsBx9eR9IoRrV6rG8kagblJPQ9X69U410p0cgowyXcQ+hykip0MeRgWKx9cyMKJNtJITmBz3kp85R0GkjlBpJUFSkyo+XliYmVj0aFsV9ZFgEaFisRJXgaMmT6bAJJy+bU78kAGMSGQfptikZoG+1kyx54s5VnFfbybJbOTeINaUnt3QNI0n4iLkHms8MZrqwIX/Su08Ci6HQQkAuxcoQO2ph8TexsHyD6QQzpY/5iEiUdQfp18qElMGu1iCHOT/GsmNQ0AINsUHJdLrjeVTz51wVl1JSe4R39670ZzfwkYsDygmXQWVYwZJRLGn72CDZ+KcZ0aZJqDTL4VeJGo9bN2gZ7DUfmofg83UUNpVtQ7PSCq/xeKarTMM4aZtoQDzRKRHJ9S9WAm9oEBdJqzU7uJYQEwFfDMrjWXwF6Y4QU0F5FrpkhztUuwD117sg2qckixKKpVdzO5rWYSyKKLiY5iCkpr4XjCyX57svt8unxgkRhQuzQrU6vLebRILP8avVF3+9uHsO5be2CGlM0m2BlIjJe3ZONjMAKhl9wyebaE2fKmT/HuYTxV3DZRA+omR6twMzZ3Qf5cTcubrHg7q01sdcftsXjpL4L9hGtD6NmaKzsis0nnW9SawIAB0AIC2T4OcVVPXKYnjFSq7gFehS14MVKptg7HrgBltx4Phv",
+      "51764": "ALgFgt8TAgEFgt8TAgYFgt8TAg0Fgt8TAg4Fgt8TAg8Fgt8TAhIFgt8TAhMFgt8TAhQIg5pkjJstAQcIg5pkjJstAQgIg5pkjJstAQkIg5pkjJstAQoIg5pkjJstAQsIg5pkjJstAQwIg5pkjJstAQ0Ig5pkjJstARIIg5pkjJstARME1nkJAQTWeQkEBNZ5CQUE1nkJBgTWeQkHBNZ5CQgE1nkJCgTWeQkLBNZ5CQwE1nkJDQTWeQkP",
+      "56026": null,
+      "65037": "AAABAAHLACDvTF23svcOt8qLDJcAeRIfFBQl0lnGJFpRlY0zRqpPOADQWbq3VRsfFOqRl6aQC+snrRz8BoktmbcrjW0L3XxyA0PxbDPXwvyF++OZUvDdqforgeHeruCs2kuVNHA0atmIgcQWMREW0iSEeyDA7WOK42leMuYvRaL6oa3XxsMGTPHrlY9NFWWnu/MK1yRcFedJzb4IKCaUxpLaOkZsBRg/dvlncKpiqCW+ba3Qq45SRNrTMwtM25ZVCi6PK5NGzqu1+NsSGW6EKKYXJ8hwwlGIwAynp5mi7/GQjUmGnPuR0UzVZRPWRGk32i2nwh0qRiO75A==",
+      "65281": "AA=="
+    }
+  },
+  "http2": {
+    "settings": {
+      "1": 65536,
+      "2": 0,
+      "4": 6291456,
+      "6": 262144
+    },
+    "settings_order": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "connection_flow": 15663105,
+    "pseudo_header_order": [
+      ":method",
+      ":authority",
+      ":scheme",
+      ":path"
+    ],
+    "header_order": null,
+    "captured_headers": null
+  },
+  "captured_at": "2026-09-30T21:33:05.386524591Z"
+}
