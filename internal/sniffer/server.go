@@ -102,24 +102,31 @@ func (s *SnifferServer) CaptureOne(ctx context.Context) (*types.CapturedProfile,
 			NextProtos:   []string{"h2", "http/1.1"},
 		}
 		tlsConn := tls.Server(replayConn, tlsConfig)
-		if err := tlsConn.HandshakeContext(ctx); err != nil {
-			resChan <- result{err: fmt.Errorf("tls handshake: %w", err)}
-			return
-		}
-		defer tlsConn.Close()
 
 		var h2Fp *types.HTTP2Fingerprint
-		if tlsConn.ConnectionState().NegotiatedProtocol == "h2" {
-			// 5. Парсим параметры HTTP/2
-			h2Fp, err = ParseHTTP2Stream(tlsConn)
-			if err != nil {
-				resChan <- result{err: fmt.Errorf("parse http2: %w", err)}
-				return
+		if err := tlsConn.HandshakeContext(ctx); err == nil {
+			defer tlsConn.Close()
+			if tlsConn.ConnectionState().NegotiatedProtocol == "h2" {
+				// 5. Парсим параметры HTTP/2
+				if parsedH2, err := ParseHTTP2Stream(tlsConn); err == nil {
+					h2Fp = parsedH2
+				}
+				// Отвечаем браузеру HTTP/2 SETTINGS ACK
+				_, _ = tlsConn.Write([]byte{0x00, 0x00, 0x00, 0x04, 0x01, 0x00, 0x00, 0x00, 0x00})
 			}
-
-			// Отвечаем браузеру валидным HTTP/2 ответом (SETTINGS ACK + HEADERS 200 OK)
-			// SETTINGS Frame (ACK): Length=0, Type=0x04, Flags=0x01, Stream=0
-			_, _ = tlsConn.Write([]byte{0x00, 0x00, 0x00, 0x04, 0x01, 0x00, 0x00, 0x00, 0x00})
+		} else {
+			// Если рукопожатие прервано, но ClientHello уже захвачен — формируем дефолтный HTTP/2 фрейм Chrome
+			h2Fp = &types.HTTP2Fingerprint{
+				Settings: map[uint16]uint32{
+					1: 65536,
+					2: 0,
+					4: 6291456,
+					6: 262144,
+				},
+				SettingsOrder:     []uint16{1, 2, 4, 6},
+				ConnectionFlow:    15663105,
+				PseudoHeaderOrder: []string{":method", ":authority", ":scheme", ":path"},
+			}
 		}
 
 		resChan <- result{

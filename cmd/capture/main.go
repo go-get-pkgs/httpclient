@@ -68,10 +68,14 @@ func main() {
 	userDataDir := filepath.Join(tempDir, "user_data")
 	_ = os.MkdirAll(userDataDir, 0o755)
 
+	// Аргументы с полной поддержкой Linux / GitHub Actions runner:
 	args := []string{
 		"--headless=new",
 		"--disable-gpu",
 		"--no-sandbox",
+		"--disable-setuid-sandbox",
+		"--disable-dev-shm-usage", // Критично для GitHub Actions / Docker
+		"--test-type",             // Критично: включает работу --ignore-certificate-errors в Linux!
 		"--allow-insecure-localhost",
 		"--ignore-certificate-errors",
 		"--disable-default-apps",
