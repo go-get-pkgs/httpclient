@@ -1,4 +1,3 @@
-# ./.github/workflows/update-profiles.yml
 name: Update Browser Fingerprints
 
 on:
@@ -15,16 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
-          go-version: '1.24'
+          go-version: 'latest'
           cache: true
 
       - name: Install Dependencies
-        run: go mod download
+        run: go mod tidy
 
       - name: Capture Latest Chrome Fingerprint
         run: |
