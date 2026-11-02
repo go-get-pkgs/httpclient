@@ -22,28 +22,28 @@
     ],
     "compression_methods": "AA==",
     "extensions": [
-      10794,
-      65037,
-      23,
-      11,
-      18,
-      16,
-      10,
-      45,
-      51764,
-      17613,
+      39578,
       4832,
-      43,
-      65281,
-      5,
-      51,
       27,
       35,
+      45,
+      51764,
+      65037,
+      23,
       13,
-      56026
+      5,
+      43,
+      16,
+      11,
+      65281,
+      10,
+      18,
+      17613,
+      51,
+      51914
     ],
     "supported_curves": [
-      60138,
+      39578,
       4588,
       29,
       23,
@@ -55,12 +55,12 @@
       "http/1.1"
     ],
     "key_share_groups": [
-      60138,
+      39578,
       4588,
       29
     ],
     "signature_algorithms": [
-      43690,
+      56026,
       2308,
       2309,
       2310,
@@ -74,24 +74,24 @@
       1537
     ],
     "raw_extensions": {
-      "10": "AArq6hHsAB0AFwAY",
-      "10794": null,
+      "10": "AAqamhHsAB0AFwAY",
       "11": "AQA=",
-      "13": "ABiqqgkECQUJBgQDCAQEAQUDCAUFAQgGBgE=",
+      "13": "ABja2gkECQUJBgQDCAQEAQUDCAUFAQgGBgE=",
       "16": "AAwCaDIIaHR0cC8xLjE=",
       "17613": "AAMCaDI=",
       "18": null,
       "23": null,
       "27": "AgAC",
       "35": null,
-      "43": "BqqqAwQDAw==",
+      "39578": null,
+      "43": "BpqaAwQDAw==",
       "45": "AQE=",
       "4832": "AAA=",
       "5": "AQAAAAA=",
-      "51": "BO3q6gABABHsBMA0UDc+O8K6S4+Ex2tRqK/N4J9VBX2AHMv3CY+siMJ717+iWTocjDaD+AyaR2DSRSovmVPlDE860n9QxrGp+WbhoV8IwSbbhDAmiIGTQma107qMh6i5MKc7WQ7ppxGZcLrPRMWkKAhs6gne0lBKi2Tq9b1IBnFf2FDpfM/G9YfnA8Ixuo3BVr1L+r+QcguqoTxxki4X9X27xC7zSxOnASvpPEUHaaT+GLCy6yN6ok4KTM+2YZnnJbw70Q4nhgi7+YJ+NWGSpqZkWnu8YgttxUaq43ZiqDQbo3zlQ4b1uw1LGVTk4qFAs5UvklrbtzW2QwKOaXPV5aq32zl1yIDXN33YSQ2gBlqsmSbd6icXgU7gzGFRvIO/tixVnMxAhVlkykqqw8kijC91OVjtyJs9dmpPUCxtEg3ZN5h+WV3ktXLi60hIAjDbZF+xJ5nvG0DHyWzdtmaafG6A0IuzmSJeVBPcuI6al2e16oX20Y7Io6LVe1RhQZOOETWghY90sDdFdFnc91FJRaO/O7lMfL2E0zjnGGHymIc8UhgvNnlvRcBRLCyTewVFip7ifDLG7L0bl2OkU8O+cwIWQhSYxyLdQSeHpGqQW8b6O4BdJnWlI8W85wQZ1jAs0AwsCJTn9K3lWzqt+K87l83+0F0KgaWnxAJ5BccVxYYP5HsmVGXCzGwG2DgMxYQpOaTJpqWxwFnLfGampEuyMXi7Co0D7AdB61wUBnS7gLg8Kzi7eHxxRibVi6MbGrA+GFMOsB2oI1G5iQKi0HS+98OTmJPkxSA1dlF41Utfywa5qgSzZZs3M4IqTBK2fBUyiKQagQ26/DuNeweToDbIA2d71l/y4XjHi34JAI5NG8MrxUVz5G9EuiWBeq3yqS/Clp8ODFsCertPZ6WjmE+TSKU+si+SZRe5SRPVKIKiFQ6v1SMB46Jh2VwGM7cLYw5nl2BDjMvIBCs8p2+pV2rLCBjGJERW8xpE9reQCIi3cJCbSiydhLL0Wh9Ixhz8gr57g6aDWoCx6qVql7fSiJmpRlyjh2PrTI3kYQa+KaSSPLsxiwRMCLABrCIjqVypQViEdnnkKDMvdEc1cL44jDeOBjbyMc/StQ3fOWpmc1qgR0yeBZQgd5BaJJg4NR6dRUOS5ncJS5m08LFxNr6qC6Eb52LfZlgeogWrNsNbyjD7AohjHKJAOzEnKbNyR4VFzKcQ26tDjL5W5AhkuakNNT/mKmygBh1i0BMmZQhfYhRox864MDdkhTCQBX4eso5AOqkEM5s2wnMIKFxa1KoFNR6eUG67CjXeCFuXpw7sUxlD7ClK1klgAazDCz3d9JP/kcqgQw+8KqG7KhjU03oKJ8Wpc4a1t6guKRvw20jMlb1vlSUO4k2Kts3BC8uT0r+O1mIvxziMCbyThEe0Zlx+gYKpqp8ccrsZEliyt2VTMB/k+JI/ikgwoI6bZHzvqjqp1oC/nFh+oLkUtS/FU7o457qO1RIfelb8mB0JooJMKnmjtVLoGBvpeLXsRQ0aBL6UErsYMEbYZwBNCoysE1wjYFPm8h26Vb5/lciUojwQESHerw1AlWSn5BLXSc0sYDcZymJlzR/niAajylG72aRZOVo09VRzzqcer9lDCRhfAB0AIKKjXnyLtIXz7N3fukhbNcznWwze9T7ftBAo39lfL5d6",
+      "51": "BO2amgABABHsBMAj4xIuK3R+pjk8t1POYQB/ErCvJ4i4qYmbOjA7oXhIMBrpQol062t9pyvGmMZiU0wIFX4gwDK3OsRc5BZPxkgKojfnOwBZorsxbKgcg3vm6qelc2vpqbmpmT72rJMQeFrpahCHNknmPFeqK5egkK51lctnZUe9MzQmfG0bClGSCxAymhp+AVRaUcqUI85TKS1qZB6M2JVDArW9lQyq53m3SQE4tLPb6kovc200E1BURsZ+pxgy+CJJChLzeizkl11Z4ZC5ZRy70E3PGniBOaeY5oI+oRQrhSUkbEx3NB1maqkSOkJDVSxL9LHhEhdSO3GCQzaCysBa9gE5xnpBo1emeilGK5W26Vm7lc04AmVvw7ckiAO0MwqSmc5Dd5Mcl8/40U+1Q4qNUV97hLQQQgcuZorKNjzdJrH2tR4uF1vvDF1IBJJS2kxr+xWJVXDQ2Zd+gJXaBBEowm/dxKN3wGAdBK+T0XfPK7fyiUhtpXLwhUcdTB1wtVWI8k54Q6ki5YS+RkTMJqR7rHqPLIwhEMk6CQ/3OkdU9ZN5CZNMxGTdC6V4Ep9e85F4ZFx4EkQkGXA+Ux/DU7K1Az0DGp+I6zNdthcyeA7ycUytMg6rSb/itbCAtIBS8iUcsQ1/eLE6aLlO8XHLaMOcS08ArcNy+1NVAZSeXGG/o7QZ+F4E8JTDt6toSphpmGWl95CcK1GsAS8xAbzO4UaZ0UqQYcEnUKm6Ky5nMgdk8gP8MjSI8I/L5hfz/IVWgaBAKL51w2Jz2nXycaNatloQ02dqJ5zFoYTZ7KEhqxKPaY+pEYitQV+KtplJICw5pgdIcB4cdsVR9YEVHAHFWRf4i2QOV8bueFQMISDeYj30IWBZ24mqK18zLK9gsQYnsFIfUmSEK0HhG6B4+wjTZLhxfI32goj/lgsOa7abZH1wDFziKwm9tgABhiEUoSAohRjH+QKlKLtTCRAc2HXYcHZJ0sw7hM27FCpmsjAOBXPwYh+AKE+TUaqudDGZkbiUxbj916EwoA1dlgEPmm/n0bR10ZQP+oYJp22cx0sQJKC62cx2zLG/F5d8qE2raomPEnrqdE/9GDF6Okk01n+p9rTOI7GWHHCeIX+6UDSq+znrula7t2y0oAZnkYt6AWXm1YoNkkoegY5Bxq5ig1RNFDdOVoOT5G+vDAEhOD9U5KzdXMEw23Z3Qj6S5x07tmnlc4J5dIEmlRD6xkyiQ7TIiwDzt2jT2hThY8+imBSCQ4hHFUOOu5T/2azmK35hSCiXBcSyoKxZAIoIh5ri1JYNo4oraFqwEAB1ZC4OeF4vE4VsVj7RyGqqO7z9+afvJ7LEIYDNxAOXjAdM6mKagyHpCjcwhZTm9HBrIlKeZnQiJVC+2Ue2+nUfzHfD25KVRG3l1gTABhcJ0IWacF4QpKyymBdWQJPZuR/V8JMKmle+GQW1PDPr4mL76qp32CA/wVD9EsYzRa1noQabBqwqADyrQZ3ErI0LfKUQohMJpUkFBwju0LW5fMO4274IlMbcLFLgMG5aF8hrlSYZakg0h5UUZdYgSPppE0VArsP3xcz/2YvArLtnYxJNlSlm3nD2e8H+6hxQ9U+tVV+VByXNN0/juF7MztUxhKVn6oUsAB0AIIA+SMNoYiPCzFU8H2dKLHJbNloS570U8/3dGAAddnhL",
       "51764": "ALgFgt8TAgEFgt8TAgYFgt8TAg0Fgt8TAg4Fgt8TAg8Fgt8TAhIFgt8TAhMFgt8TAhQIg5pkjJstAQcIg5pkjJstAQgIg5pkjJstAQkIg5pkjJstAQoIg5pkjJstAQsIg5pkjJstAQwIg5pkjJstAQ0Ig5pkjJstARIIg5pkjJstARME1nkJAQTWeQkEBNZ5CQUE1nkJBgTWeQkHBNZ5CQgE1nkJCgTWeQkLBNZ5CQwE1nkJDQTWeQkP",
-      "56026": "AA==",
-      "65037": "AAABAAGlACB/KteStJumlgjqSOtRBpSqd6G1XdCJYU5erWRm2KOEVgCQsQdILcI9HMwaQD7zXgg8n8JK4GsllVuqUkd4kxx4+ehggt59YvLZDKnORcFNVsrqWSS0j5AUWB8UnhQ8ZzjWYyNYuh1l+ljTQfqLV1vdEQf3Cl6Sll0VAy4GB0mjo4XSdje02ZkBYgM451DGebZtNi90wA1D/pOaPWIYG4gDFh305uJduIsKv4gCtX5tXK/r",
+      "51914": "AA==",
+      "65037": "AAABAAGTACAY4WwSAbjDAjjzWcDr/EFo58V7cx+ZF3Ukcy7w7kVyegDQ1BI0Dt+VkTaG83WX7w0PPPB0LIubmO1BQcyoQLjGz3C9ojz89GcwjBDuWhMnkVS/SnOBC/mx1qc7vqwTdE6kOnPAq0nlvlykgnp5+BhVM565FpRUHpWth6hedW1Ck9yWZyLDVOjpIoRS1S17Gvz0eOqQ0Xxf92MzjMo9YjjIpP2ve28BQsIFmdo2hAm8Ve3J+2KQ1JjOr+y5sEQxWYyoLDKwpFSh6/u56+AYBOj8vB3VHnWsOAHLzulNN1izA3Zd1UM2JXLsIyPrFjuXH/GxUw==",
       "65281": "AA=="
     }
   },
@@ -131,7 +131,7 @@
       "priority"
     ],
     "captured_headers": {
-      ":authority": "127.0.0.1:35435",
+      ":authority": "127.0.0.1:42669",
       ":method": "GET",
       ":path": "/probe",
       ":scheme": "https",
@@ -150,5 +150,5 @@
       "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
     }
   },
-  "captured_at": "2026-10-26T08:44:46.372661198Z"
+  "captured_at": "2026-11-02T10:50:12.570295292Z"
 }

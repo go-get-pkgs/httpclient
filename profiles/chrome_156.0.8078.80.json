@@ -1,0 +1,154 @@
+{
+  "tls": {
+    "record_version": 769,
+    "handshake_version": 771,
+    "cipher_suites": [
+      31354,
+      4865,
+      4866,
+      4867,
+      49195,
+      49199,
+      49196,
+      49200,
+      52393,
+      52392,
+      49171,
+      49172,
+      156,
+      157,
+      47,
+      53
+    ],
+    "compression_methods": "AA==",
+    "extensions": [
+      39578,
+      4832,
+      27,
+      35,
+      45,
+      51764,
+      65037,
+      23,
+      13,
+      5,
+      43,
+      16,
+      11,
+      65281,
+      10,
+      18,
+      17613,
+      51,
+      51914
+    ],
+    "supported_curves": [
+      39578,
+      4588,
+      29,
+      23,
+      24
+    ],
+    "supported_points": "AA==",
+    "alpn_protocols": [
+      "h2",
+      "http/1.1"
+    ],
+    "key_share_groups": [
+      39578,
+      4588,
+      29
+    ],
+    "signature_algorithms": [
+      56026,
+      2308,
+      2309,
+      2310,
+      1027,
+      2052,
+      1025,
+      1283,
+      2053,
+      1281,
+      2054,
+      1537
+    ],
+    "raw_extensions": {
+      "10": "AAqamhHsAB0AFwAY",
+      "11": "AQA=",
+      "13": "ABja2gkECQUJBgQDCAQEAQUDCAUFAQgGBgE=",
+      "16": "AAwCaDIIaHR0cC8xLjE=",
+      "17613": "AAMCaDI=",
+      "18": null,
+      "23": null,
+      "27": "AgAC",
+      "35": null,
+      "39578": null,
+      "43": "BpqaAwQDAw==",
+      "45": "AQE=",
+      "4832": "AAA=",
+      "5": "AQAAAAA=",
+      "51": "BO2amgABABHsBMAj4xIuK3R+pjk8t1POYQB/ErCvJ4i4qYmbOjA7oXhIMBrpQol062t9pyvGmMZiU0wIFX4gwDK3OsRc5BZPxkgKojfnOwBZorsxbKgcg3vm6qelc2vpqbmpmT72rJMQeFrpahCHNknmPFeqK5egkK51lctnZUe9MzQmfG0bClGSCxAymhp+AVRaUcqUI85TKS1qZB6M2JVDArW9lQyq53m3SQE4tLPb6kovc200E1BURsZ+pxgy+CJJChLzeizkl11Z4ZC5ZRy70E3PGniBOaeY5oI+oRQrhSUkbEx3NB1maqkSOkJDVSxL9LHhEhdSO3GCQzaCysBa9gE5xnpBo1emeilGK5W26Vm7lc04AmVvw7ckiAO0MwqSmc5Dd5Mcl8/40U+1Q4qNUV97hLQQQgcuZorKNjzdJrH2tR4uF1vvDF1IBJJS2kxr+xWJVXDQ2Zd+gJXaBBEowm/dxKN3wGAdBK+T0XfPK7fyiUhtpXLwhUcdTB1wtVWI8k54Q6ki5YS+RkTMJqR7rHqPLIwhEMk6CQ/3OkdU9ZN5CZNMxGTdC6V4Ep9e85F4ZFx4EkQkGXA+Ux/DU7K1Az0DGp+I6zNdthcyeA7ycUytMg6rSb/itbCAtIBS8iUcsQ1/eLE6aLlO8XHLaMOcS08ArcNy+1NVAZSeXGG/o7QZ+F4E8JTDt6toSphpmGWl95CcK1GsAS8xAbzO4UaZ0UqQYcEnUKm6Ky5nMgdk8gP8MjSI8I/L5hfz/IVWgaBAKL51w2Jz2nXycaNatloQ02dqJ5zFoYTZ7KEhqxKPaY+pEYitQV+KtplJICw5pgdIcB4cdsVR9YEVHAHFWRf4i2QOV8bueFQMISDeYj30IWBZ24mqK18zLK9gsQYnsFIfUmSEK0HhG6B4+wjTZLhxfI32goj/lgsOa7abZH1wDFziKwm9tgABhiEUoSAohRjH+QKlKLtTCRAc2HXYcHZJ0sw7hM27FCpmsjAOBXPwYh+AKE+TUaqudDGZkbiUxbj916EwoA1dlgEPmm/n0bR10ZQP+oYJp22cx0sQJKC62cx2zLG/F5d8qE2raomPEnrqdE/9GDF6Okk01n+p9rTOI7GWHHCeIX+6UDSq+znrula7t2y0oAZnkYt6AWXm1YoNkkoegY5Bxq5ig1RNFDdOVoOT5G+vDAEhOD9U5KzdXMEw23Z3Qj6S5x07tmnlc4J5dIEmlRD6xkyiQ7TIiwDzt2jT2hThY8+imBSCQ4hHFUOOu5T/2azmK35hSCiXBcSyoKxZAIoIh5ri1JYNo4oraFqwEAB1ZC4OeF4vE4VsVj7RyGqqO7z9+afvJ7LEIYDNxAOXjAdM6mKagyHpCjcwhZTm9HBrIlKeZnQiJVC+2Ue2+nUfzHfD25KVRG3l1gTABhcJ0IWacF4QpKyymBdWQJPZuR/V8JMKmle+GQW1PDPr4mL76qp32CA/wVD9EsYzRa1noQabBqwqADyrQZ3ErI0LfKUQohMJpUkFBwju0LW5fMO4274IlMbcLFLgMG5aF8hrlSYZakg0h5UUZdYgSPppE0VArsP3xcz/2YvArLtnYxJNlSlm3nD2e8H+6hxQ9U+tVV+VByXNN0/juF7MztUxhKVn6oUsAB0AIIA+SMNoYiPCzFU8H2dKLHJbNloS570U8/3dGAAddnhL",
+      "51764": "ALgFgt8TAgEFgt8TAgYFgt8TAg0Fgt8TAg4Fgt8TAg8Fgt8TAhIFgt8TAhMFgt8TAhQIg5pkjJstAQcIg5pkjJstAQgIg5pkjJstAQkIg5pkjJstAQoIg5pkjJstAQsIg5pkjJstAQwIg5pkjJstAQ0Ig5pkjJstARIIg5pkjJstARME1nkJAQTWeQkEBNZ5CQUE1nkJBgTWeQkHBNZ5CQgE1nkJCgTWeQkLBNZ5CQwE1nkJDQTWeQkP",
+      "51914": "AA==",
+      "65037": "AAABAAGTACAY4WwSAbjDAjjzWcDr/EFo58V7cx+ZF3Ukcy7w7kVyegDQ1BI0Dt+VkTaG83WX7w0PPPB0LIubmO1BQcyoQLjGz3C9ojz89GcwjBDuWhMnkVS/SnOBC/mx1qc7vqwTdE6kOnPAq0nlvlykgnp5+BhVM565FpRUHpWth6hedW1Ck9yWZyLDVOjpIoRS1S17Gvz0eOqQ0Xxf92MzjMo9YjjIpP2ve28BQsIFmdo2hAm8Ve3J+2KQ1JjOr+y5sEQxWYyoLDKwpFSh6/u56+AYBOj8vB3VHnWsOAHLzulNN1izA3Zd1UM2JXLsIyPrFjuXH/GxUw==",
+      "65281": "AA=="
+    }
+  },
+  "http2": {
+    "settings": {
+      "1": 65536,
+      "2": 0,
+      "4": 6291456,
+      "6": 262144
+    },
+    "settings_order": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "connection_flow": 15663105,
+    "pseudo_header_order": [
+      ":method",
+      ":authority",
+      ":scheme",
+      ":path"
+    ],
+    "header_order": [
+      "sec-ch-ua",
+      "sec-ch-ua-mobile",
+      "sec-ch-ua-platform",
+      "accept-language",
+      "upgrade-insecure-requests",
+      "user-agent",
+      "accept",
+      "sec-fetch-site",
+      "sec-fetch-mode",
+      "sec-fetch-user",
+      "sec-fetch-dest",
+      "accept-encoding",
+      "priority"
+    ],
+    "captured_headers": {
+      ":authority": "127.0.0.1:42669",
+      ":method": "GET",
+      ":path": "/probe",
+      ":scheme": "https",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "priority": "u=0, i",
+      "sec-ch-ua": "\"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Linux\"",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+    }
+  },
+  "captured_at": "2026-11-02T10:50:12.570295292Z"
+}
