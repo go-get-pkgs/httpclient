@@ -3,7 +3,7 @@
     "record_version": 769,
     "handshake_version": 771,
     "cipher_suites": [
-      31354,
+      56026,
       4865,
       4866,
       4867,
@@ -22,28 +22,28 @@
     ],
     "compression_methods": "AA==",
     "extensions": [
-      39578,
-      4832,
-      27,
-      35,
-      45,
-      51764,
-      65037,
-      23,
-      13,
-      5,
+      27242,
       43,
+      23,
+      51,
+      10,
       16,
+      13,
+      17613,
+      45,
+      65037,
+      27,
+      18,
+      35,
+      4832,
       11,
       65281,
-      10,
-      18,
-      17613,
-      51,
-      51914
+      51764,
+      5,
+      2570
     ],
     "supported_curves": [
-      39578,
+      14906,
       4588,
       29,
       23,
@@ -55,12 +55,12 @@
       "http/1.1"
     ],
     "key_share_groups": [
-      39578,
+      14906,
       4588,
       29
     ],
     "signature_algorithms": [
-      56026,
+      6682,
       2308,
       2309,
       2310,
@@ -74,24 +74,24 @@
       1537
     ],
     "raw_extensions": {
-      "10": "AAqamhHsAB0AFwAY",
+      "10": "AAo6OhHsAB0AFwAY",
       "11": "AQA=",
-      "13": "ABja2gkECQUJBgQDCAQEAQUDCAUFAQgGBgE=",
+      "13": "ABgaGgkECQUJBgQDCAQEAQUDCAUFAQgGBgE=",
       "16": "AAwCaDIIaHR0cC8xLjE=",
       "17613": "AAMCaDI=",
       "18": null,
       "23": null,
+      "2570": "AA==",
       "27": "AgAC",
+      "27242": null,
       "35": null,
-      "39578": null,
-      "43": "BpqaAwQDAw==",
+      "43": "BlpaAwQDAw==",
       "45": "AQE=",
       "4832": "AAA=",
       "5": "AQAAAAA=",
-      "51": "BO2amgABABHsBMAj4xIuK3R+pjk8t1POYQB/ErCvJ4i4qYmbOjA7oXhIMBrpQol062t9pyvGmMZiU0wIFX4gwDK3OsRc5BZPxkgKojfnOwBZorsxbKgcg3vm6qelc2vpqbmpmT72rJMQeFrpahCHNknmPFeqK5egkK51lctnZUe9MzQmfG0bClGSCxAymhp+AVRaUcqUI85TKS1qZB6M2JVDArW9lQyq53m3SQE4tLPb6kovc200E1BURsZ+pxgy+CJJChLzeizkl11Z4ZC5ZRy70E3PGniBOaeY5oI+oRQrhSUkbEx3NB1maqkSOkJDVSxL9LHhEhdSO3GCQzaCysBa9gE5xnpBo1emeilGK5W26Vm7lc04AmVvw7ckiAO0MwqSmc5Dd5Mcl8/40U+1Q4qNUV97hLQQQgcuZorKNjzdJrH2tR4uF1vvDF1IBJJS2kxr+xWJVXDQ2Zd+gJXaBBEowm/dxKN3wGAdBK+T0XfPK7fyiUhtpXLwhUcdTB1wtVWI8k54Q6ki5YS+RkTMJqR7rHqPLIwhEMk6CQ/3OkdU9ZN5CZNMxGTdC6V4Ep9e85F4ZFx4EkQkGXA+Ux/DU7K1Az0DGp+I6zNdthcyeA7ycUytMg6rSb/itbCAtIBS8iUcsQ1/eLE6aLlO8XHLaMOcS08ArcNy+1NVAZSeXGG/o7QZ+F4E8JTDt6toSphpmGWl95CcK1GsAS8xAbzO4UaZ0UqQYcEnUKm6Ky5nMgdk8gP8MjSI8I/L5hfz/IVWgaBAKL51w2Jz2nXycaNatloQ02dqJ5zFoYTZ7KEhqxKPaY+pEYitQV+KtplJICw5pgdIcB4cdsVR9YEVHAHFWRf4i2QOV8bueFQMISDeYj30IWBZ24mqK18zLK9gsQYnsFIfUmSEK0HhG6B4+wjTZLhxfI32goj/lgsOa7abZH1wDFziKwm9tgABhiEUoSAohRjH+QKlKLtTCRAc2HXYcHZJ0sw7hM27FCpmsjAOBXPwYh+AKE+TUaqudDGZkbiUxbj916EwoA1dlgEPmm/n0bR10ZQP+oYJp22cx0sQJKC62cx2zLG/F5d8qE2raomPEnrqdE/9GDF6Okk01n+p9rTOI7GWHHCeIX+6UDSq+znrula7t2y0oAZnkYt6AWXm1YoNkkoegY5Bxq5ig1RNFDdOVoOT5G+vDAEhOD9U5KzdXMEw23Z3Qj6S5x07tmnlc4J5dIEmlRD6xkyiQ7TIiwDzt2jT2hThY8+imBSCQ4hHFUOOu5T/2azmK35hSCiXBcSyoKxZAIoIh5ri1JYNo4oraFqwEAB1ZC4OeF4vE4VsVj7RyGqqO7z9+afvJ7LEIYDNxAOXjAdM6mKagyHpCjcwhZTm9HBrIlKeZnQiJVC+2Ue2+nUfzHfD25KVRG3l1gTABhcJ0IWacF4QpKyymBdWQJPZuR/V8JMKmle+GQW1PDPr4mL76qp32CA/wVD9EsYzRa1noQabBqwqADyrQZ3ErI0LfKUQohMJpUkFBwju0LW5fMO4274IlMbcLFLgMG5aF8hrlSYZakg0h5UUZdYgSPppE0VArsP3xcz/2YvArLtnYxJNlSlm3nD2e8H+6hxQ9U+tVV+VByXNN0/juF7MztUxhKVn6oUsAB0AIIA+SMNoYiPCzFU8H2dKLHJbNloS570U8/3dGAAddnhL",
+      "51": "BO06OgABABHsBMDPuEfZ2RzjVs3V4mLb2Ju3GjN+tZf5or7Pc8AfJL895Zz4dC4ONj30UAaAbAswJgliKM33MS3tGUxitVyMg0RrZA4xyhpHpbR09Lg7eQhNQXOuppKt00lAqEBm2Ec20gOQiJxJphF2ez/LNRjok02817iSEiMi9wAqsQwoJUdn1XM+7K3pdgK0Ulyz+M2DGncV5I9/lH6kNjptSw2VikKnUnpDej2vA3HRx72VgGp5UH8Oc5hMMjP0THbIEJSYgV91iZVsphOKazEvJRI3ETtagExEhblglM8WtGshu0hkUQaMJ2y8cLD9UUIO9RyS2E0v2w7NVYLf48enBz5E9cvFE6GzAB6Ghm8+YoSHmpwnKJ1Z0IJ+wUy78ZpXkaplkLGye3RyuAq5WhaHBb78pL9OcJmwIZgKFj7xvFCphHBnq6M98gvWR24H/G7ymWZ9uRbSgG74cJaJIF3Cg4zbY8l15mRfVi1EMc0Q6Yudk7XUVICegnEGeqYYVrX0iJXRyx/T0ra48QNw1wXJ8DmQ45jlmjy8eMC3V1aSAA2/9nYxUAtxwQqL605ADKtTFLkgJQjoU1aTa0/q6XHQyooA5sz1oGP38ZURxgED43humZFRkaJrsYACA639IVkJM1FuKm7HQDjIF0hukJR/cUp6ZkiIXC4n5aZ7NV3nlwHTppXO0mQpmsovyhIe0yYES6fSIVTDNJVUKgpeAkTwRLU/AJgHpxLjUmxiKZiioW9/pR+S2IEHzI56u2UQd2BoMJTdlLeE2l1DF5wSe52LczGxhzxgN2uPRMSrhimVWGMNSRJzmLK5BnVCcGm5YqX093njTCbAWmq6tI6DhmZP2gBTiADH0ZtWChKLek2uUFNQnC1uaw8IM1mXOHQAB54btzbH9pqLKa3g90nZE8aTK2zeEipNp8YWxIuRHAZOu4TRyKEjGp9RR7ZfBELLyx5mFmK7fIgF6lhA+HWc3FqgqgGI6MxbQhY86nAM60EMbFAFSi62JDw2S2swMY/Nh0YAk0OednB4B6iueYY3cXQ8qkEmiqE5KR2ydMp9Bxz9IUVsIi2U1EtWanWwN2NC6Mgohj+stcRjfGig0QdRVB2RFLoMd847PM3xtx0dqMvHBM2zJ7wzFr4W85Baxaf99xwgZyMtpcJ4hLaZcrKbZ0JIujmsBFdGfKi42Vlak67KGcGawCAX0cVajEKBFkOEu2sh+I2LmjTeliqH4MkFxgBUEDv/mRAn0aVH5rBioy6tN5nRtakPGHzKWcuF8I7U5rX3wgUpa80NYRCEy2B3wGyMSZ/k0Ahy07kNlwk8QrMqULYQhpOVFDHScYBy+lPlLHfG4p215ULsFJ41CLKz2BcEljKhXGvhEoJNknrDqAxTpH0Y3BQXYkT/NUqMosbrqp3MmxqwdKeEKhBq64NWiT4XxyGfUFUeOjLsqcz0ZKSM5c5BqauEmJpDuX564is16YHJ9ZPdBZz9sGydAzURkSSygodo9Adm2mn0GbzJ5m3NOzlNKTUyoksxlpnnWDYSxq8EHAwFFSmYbVNKSPyubEp7RG/bRXzisoQmD1Qs0aG4+1xbYDri0ZNwZ2O6NBkApFGECKZWxKyakhKu58nI49l1Bd1euvdKAB0AICF7HNHMyZ42OGnxTYAAulGBmQ63ZkoGKEcFAaRzfXl6",
       "51764": "ALgFgt8TAgEFgt8TAgYFgt8TAg0Fgt8TAg4Fgt8TAg8Fgt8TAhIFgt8TAhMFgt8TAhQIg5pkjJstAQcIg5pkjJstAQgIg5pkjJstAQkIg5pkjJstAQoIg5pkjJstAQsIg5pkjJstAQwIg5pkjJstAQ0Ig5pkjJstARIIg5pkjJstARME1nkJAQTWeQkEBNZ5CQUE1nkJBgTWeQkHBNZ5CQgE1nkJCgTWeQkLBNZ5CQwE1nkJDQTWeQkP",
-      "51914": "AA==",
-      "65037": "AAABAAGTACAY4WwSAbjDAjjzWcDr/EFo58V7cx+ZF3Ukcy7w7kVyegDQ1BI0Dt+VkTaG83WX7w0PPPB0LIubmO1BQcyoQLjGz3C9ojz89GcwjBDuWhMnkVS/SnOBC/mx1qc7vqwTdE6kOnPAq0nlvlykgnp5+BhVM565FpRUHpWth6hedW1Ck9yWZyLDVOjpIoRS1S17Gvz0eOqQ0Xxf92MzjMo9YjjIpP2ve28BQsIFmdo2hAm8Ve3J+2KQ1JjOr+y5sEQxWYyoLDKwpFSh6/u56+AYBOj8vB3VHnWsOAHLzulNN1izA3Zd1UM2JXLsIyPrFjuXH/GxUw==",
+      "65037": "AAABAAHFACA/Hbj+Zwsr0W4ylV54HCFhLsVtPwOhlnsedpnwJ8WUJQCwdD+TZ4gjuBtJ64nBR065fqZApv2tdReqYMmMfTB8MVur7ZFRQu6IeCYYPgHAaim5lKqHYW8pItxhmAIKHeOuWUiqpGN69VwreZRmIda0N6M4eRC0DQ3AMV4ZTxXTfF7Xz8S4K652zjrni+MNEkxME/HBr2I8m37YBXliThsKpvoj3YgvGDpLGzDICjJxxHv5XNxZuvou5OAZ+YhJT6ZO479jsVauXGYNcjJnNFS3zfk=",
       "65281": "AA=="
     }
   },
@@ -119,7 +119,6 @@
       "sec-ch-ua",
       "sec-ch-ua-mobile",
       "sec-ch-ua-platform",
-      "accept-language",
       "upgrade-insecure-requests",
       "user-agent",
       "accept",
@@ -128,10 +127,11 @@
       "sec-fetch-user",
       "sec-fetch-dest",
       "accept-encoding",
+      "accept-language",
       "priority"
     ],
     "captured_headers": {
-      ":authority": "127.0.0.1:42669",
+      ":authority": "127.0.0.1:38883",
       ":method": "GET",
       ":path": "/probe",
       ":scheme": "https",
@@ -139,7 +139,7 @@
       "accept-encoding": "gzip, deflate, br, zstd",
       "accept-language": "en-US,en;q=0.9",
       "priority": "u=0, i",
-      "sec-ch-ua": "\"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\"",
+      "sec-ch-ua": "\"Chromium\";v=\"157\", \"Not-A.Brand\";v=\"99\"",
       "sec-ch-ua-mobile": "?0",
       "sec-ch-ua-platform": "\"Linux\"",
       "sec-fetch-dest": "document",
@@ -147,8 +147,8 @@
       "sec-fetch-site": "none",
       "sec-fetch-user": "?1",
       "upgrade-insecure-requests": "1",
-      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+      "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36"
     }
   },
-  "captured_at": "2026-11-02T10:50:12.570295292Z"
+  "captured_at": "2026-11-09T11:14:19.498270381Z"
 }
